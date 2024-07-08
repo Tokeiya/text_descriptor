@@ -1,4 +1,5 @@
 use std::collections::VecDeque;
+use super::contents_presenter::ContentsPresenter;
 
 pub enum Integer {
 	I8(i8),
@@ -14,6 +15,7 @@ pub enum Integer {
 	U128(u128),
 	USize(usize)
 }
+
 
 impl Integer {
 	pub fn is_negative(&self) -> bool {

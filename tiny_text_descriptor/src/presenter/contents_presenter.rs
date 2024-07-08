@@ -3,3 +3,4 @@ pub trait ContentsPresenter {
 	fn len(&self) -> usize;
 	fn is_empty(&self) -> bool;
 }
+
